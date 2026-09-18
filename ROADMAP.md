@@ -13,7 +13,9 @@ Phased delivery plan for this repository. Each phase is a cluster of feat branch
 
 | Phase | Title | Branches | Milestone tag |
 |:---:|---|---|---|
-| 1 | TODO — first phase title | 🔜 planned `feat/1-todo-branch-name` | `v0.1.0` |
+| 1 | Publish the marketplace | 🔜 planned `feat/1-plugin-marketplace` | `v1.0.0` |
+| 2 | Reach the whole team | 🔜 planned `feat/2-release-archives` · 🔜 planned `feat/3-install-walkthrough` | `v1.1.0` |
+| 3 | Survive the season handover | 🔜 planned `feat/4-workspace-config` · 🔜 planned `feat/5-skill-regression-checks` | `v2.0.0` |
 
 ## Branch diagram
 
@@ -25,13 +27,39 @@ gitGraph
     branch dev
     checkout dev
 
-    %% Phase 1 — TODO — first phase title
-    branch feat/1-todo-branch-name
-    commit id: "○ One-line description of what this branch delivers"
+    %% Phase 1 — Publish the marketplace
+    branch feat/1-plugin-marketplace
+    commit id: "○ Marketplace manifest, the four plugins, packaged files and README"
     checkout dev
-    merge feat/1-todo-branch-name
+    merge feat/1-plugin-marketplace
     checkout main
-    merge dev tag: "v0.1.0"
+    merge dev tag: "v1.0.0"
+    checkout dev
+
+    %% Phase 2 — Reach the whole team
+    branch feat/2-release-archives
+    commit id: "○ Publish plugin archives as Release assets and point the marketplace at them"
+    checkout dev
+    merge feat/2-release-archives
+    branch feat/3-install-walkthrough
+    commit id: "○ Verify and document the desktop app install path, tested on one board member"
+    checkout dev
+    merge feat/3-install-walkthrough
+    checkout main
+    merge dev tag: "v1.1.0"
+    checkout dev
+
+    %% Phase 3 — Survive the season handover
+    branch feat/4-workspace-config
+    commit id: "○ Move the hardcoded IFS09 Notion IDs into one reference file per plugin"
+    checkout dev
+    merge feat/4-workspace-config
+    branch feat/5-skill-regression-checks
+    commit id: "○ Checks that catch a skill pointing at a page that no longer exists"
+    checkout dev
+    merge feat/5-skill-regression-checks
+    checkout main
+    merge dev tag: "v2.0.0"
     checkout dev
 
 ```

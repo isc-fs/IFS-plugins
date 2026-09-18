@@ -13,17 +13,31 @@
 #           sentence used as the commit label in the mermaid diagram.
 #   sidequests: off-roadmap branches kept in the diagram for history
 #               (e.g. infrastructure work that doesn't map to a phase).
-#
-# Replace the TODO entries below with the actual phases and branches for
-# this repository. See isc-fs/stm32-can-bootloader/.github/roadmap.yaml
-# for a fully filled-in example.
 
 phases:
   - number: 1
-    title: TODO — first phase title
-    tag: v0.1.0
+    title: Publish the marketplace
+    tag: v1.0.0
     branches:
-      - name: feat/1-todo-branch-name
-        scope: One-line description of what this branch delivers
+      - name: feat/1-plugin-marketplace
+        scope: Marketplace manifest, the four plugins, packaged files and README
+
+  - number: 2
+    title: Reach the whole team
+    tag: v1.1.0
+    branches:
+      - name: feat/2-release-archives
+        scope: Publish plugin archives as Release assets and point the marketplace at them
+      - name: feat/3-install-walkthrough
+        scope: Verify and document the desktop app install path, tested on one board member
+
+  - number: 3
+    title: Survive the season handover
+    tag: v2.0.0
+    branches:
+      - name: feat/4-workspace-config
+        scope: Move the hardcoded IFS09 Notion IDs into one reference file per plugin
+      - name: feat/5-skill-regression-checks
+        scope: Checks that catch a skill pointing at a page that no longer exists
 
 sidequests: []

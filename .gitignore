@@ -1,52 +1,28 @@
-# Prerequisites
-*.d
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Windows
+Thumbs.db
+Desktop.ini
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
 
-# Precompiled Headers
-*.gch
-*.pch
+# Python, for .github/scripts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Local scratch. Packaged plugins under dist/ ARE tracked: they are how
+# people without a GitHub account install, so do not ignore *.plugin.
+*.log
+tmp/
+scratch/

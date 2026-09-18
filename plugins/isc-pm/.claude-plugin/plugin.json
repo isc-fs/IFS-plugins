@@ -1,0 +1,15 @@
+{
+  "name": "isc-pm",
+  "version": "1.0.0",
+  "description": "Project management for the ISC Formula Student Racing Team. Maintains the season roadmap, triages who owes what across departments, and produces the weekly board report from the team's shared Notion workspace.",
+  "author": {
+    "name": "ISC Formula Student Racing Team"
+  },
+  "keywords": [
+    "project-management",
+    "roadmap",
+    "tasks",
+    "formula-student",
+    "isc"
+  ]
+}

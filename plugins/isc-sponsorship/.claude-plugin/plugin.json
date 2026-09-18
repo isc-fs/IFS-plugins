@@ -1,0 +1,15 @@
+{
+  "name": "isc-sponsorship",
+  "version": "1.0.0",
+  "description": "Sponsorship workflows for the ISC Formula Student Racing Team: prospect research, outreach, proposals, pipeline review, and sponsor deliverable tracking, all backed by the team's shared Notion workspace.",
+  "author": {
+    "name": "ISC Formula Student Racing Team"
+  },
+  "keywords": [
+    "sponsorship",
+    "formula-student",
+    "isc",
+    "fundraising",
+    "partnerships"
+  ]
+}

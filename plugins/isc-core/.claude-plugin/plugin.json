@@ -1,0 +1,16 @@
+{
+  "name": "isc-core",
+  "version": "1.0.0",
+  "description": "Team-wide workflows for the ISC Formula Student Racing Team: onboarding new members, recording decisions with their reasoning, and producing handover packs so knowledge survives the annual board turnover. Every board member installs this.",
+  "author": {
+    "name": "ISC Formula Student Racing Team"
+  },
+  "keywords": [
+    "onboarding",
+    "handover",
+    "decisions",
+    "knowledge",
+    "formula-student",
+    "isc"
+  ]
+}
