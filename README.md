@@ -10,16 +10,14 @@ A plugin is a set of instructions describing how this team works, which Claude r
 
 ## Install
 
-**Everybody installs `isc-core`.** On top of that, install the one for your job.
-
-### If you have access to this repository
+The repository is public, so nobody needs a GitHub account. Two lines, once:
 
 ```
 /plugin marketplace add isc-fs/IFS-plugins
 /plugin install isc-core@isc-plugins
 ```
 
-Then whichever applies to you:
+**Everybody installs `isc-core`.** On top of that, install the one for your job:
 
 ```
 /plugin install isc-pm@isc-plugins
@@ -27,13 +25,16 @@ Then whichever applies to you:
 /plugin install isc-marketing@isc-plugins
 ```
 
-In the Claude desktop app, use the plugin browser rather than typing commands.
+In the Claude desktop app, use the plugin browser rather than typing the commands.
 
-### If you do not have a GitHub account
+Installing this way means you get fixes. When a plugin is updated here, your copy
+is told there is a new version. The alternative below does not do that.
 
-Ask the board for the plugin files. They are in `dist/` in this repository and get shared as files. Open each one in the Claude desktop app to install it.
+### Without the marketplace
 
-This route works, but it has no update path: when a plugin changes you have to be sent the new file and install it again.
+The packaged files live in `dist/`. Download one and open it in the Claude desktop
+app to install it. Use this only if the marketplace route fails, because a file
+installed this way never learns that a newer version exists.
 
 ---
 
