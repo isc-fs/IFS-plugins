@@ -1,0 +1,15 @@
+{
+  "name": "isc-marketing",
+  "version": "1.0.0",
+  "description": "Brand identity and season content preparation for the ISC Formula Student Racing Team. Defines and enforces the team's brand, drafts content in established formats, and plans the season around capture deadlines rather than publish dates.",
+  "author": {
+    "name": "ISC Formula Student Racing Team"
+  },
+  "keywords": [
+    "marketing",
+    "brand",
+    "content",
+    "formula-student",
+    "isc"
+  ]
+}

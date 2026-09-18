@@ -1,0 +1,47 @@
+{
+  "name": "isc-plugins",
+  "owner": {
+    "name": "ISC Formula Student Racing Team",
+    "url": "https://github.com/isc-fs"
+  },
+  "description": "Claude plugins for the ISC Formula Student Racing Team: project management, sponsorship, marketing, and the team-wide workflows everybody installs.",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "isc-core",
+      "source": "./plugins/isc-core",
+      "version": "1.0.0",
+      "description": "Team-wide workflows: onboarding new members, recording decisions with their reasoning, and producing handover packs so knowledge survives the annual board turnover. Every member installs this one.",
+      "author": { "name": "ISC Formula Student Racing Team" },
+      "category": "productivity",
+      "tags": ["isc", "onboarding", "decisions", "handover"]
+    },
+    {
+      "name": "isc-pm",
+      "source": "./plugins/isc-pm",
+      "version": "1.0.0",
+      "description": "Project management: recomputes the schedule from the dependency graph, triages who owes what, maintains the season roadmap, and writes the weekly board report.",
+      "author": { "name": "ISC Formula Student Racing Team" },
+      "category": "productivity",
+      "tags": ["isc", "project-management", "gantt", "notion"]
+    },
+    {
+      "name": "isc-sponsorship",
+      "source": "./plugins/isc-sponsorship",
+      "version": "1.0.0",
+      "description": "Sponsorship: prospect research, outreach drafting, proposals, pipeline review, and tracking what we owe the sponsors who signed.",
+      "author": { "name": "ISC Formula Student Racing Team" },
+      "category": "business",
+      "tags": ["isc", "sponsorship", "outreach", "notion"]
+    },
+    {
+      "name": "isc-marketing",
+      "source": "./plugins/isc-marketing",
+      "version": "1.0.0",
+      "description": "Brand and content: defines and enforces the team brand, drafts posts in the established formats, and plans the season around capture deadlines rather than publish dates.",
+      "author": { "name": "ISC Formula Student Racing Team" },
+      "category": "marketing",
+      "tags": ["isc", "brand", "content", "social"]
+    }
+  ]
+}
